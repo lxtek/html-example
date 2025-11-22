@@ -5,6 +5,7 @@ local Function = {}
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
+local StarterGui = game:GetService("StarterGui") -- Добавлено для лучшего доступа к GUI
 
 
 function run(Player)
@@ -3397,12 +3398,29 @@ function run(Player)
 		local MainFrame = Instance.new("Frame")
 		MainFrame.Size = UDim2.new(0, 250, 0, 100)
 		MainFrame.Position = UDim2.new(0.5, -125, 0.5, -50)
-		MainFrame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+		MainFrame.BackgroundColor3 = Color3.fromRGB(50, 50, 50) 
 		MainFrame.BorderColor3 = Color3.fromRGB(20, 20, 20)
 		MainFrame.Active = true
 		MainFrame.Draggable = true 
-        MainFrame.ZIndex = 10 -- Убедимся, что он поверх других элементов
+        MainFrame.ZIndex = 10 
 		MainFrame.Parent = ScreenGui
+        
+        -- Кнопка закрытия/открытия GUI
+        local ToggleButton = Instance.new("TextButton")
+        ToggleButton.Name = "ToggleButton"
+        ToggleButton.Size = UDim2.new(0, 20, 0, 20)
+        ToggleButton.Position = UDim2.new(1, -20, 0, 0)
+        ToggleButton.Text = "X"
+        ToggleButton.Font = Enum.Font.SourceSansBold
+        ToggleButton.TextSize = 18
+        ToggleButton.TextColor3 = Color3.new(1, 1, 1)
+        ToggleButton.BackgroundColor3 = Color3.fromRGB(150, 0, 0)
+        ToggleButton.Parent = MainFrame
+        
+        ToggleButton.MouseButton1Click:Connect(function()
+            MainFrame.Visible = false
+        end)
+
 
 		-- Поле ввода ника
 		local NameTextBox = Instance.new("TextBox")
@@ -3457,10 +3475,10 @@ function run(Player)
 			end
 		end)
 		
-		-- Возможность скрыть/показать GUI
+		-- Возможность скрыть/показать GUI по нажатию клавиши ";"
 		UserInputService.InputBegan:Connect(function(input, gameProcessed)
 			if gameProcessed then return end
-			if input.KeyCode == Enum.KeyCode.Semicolon then -- Клавиша ";"
+			if input.KeyCode == Enum.KeyCode.Semicolon then 
 				MainFrame.Visible = not MainFrame.Visible
 			end
 		end)
@@ -3731,7 +3749,7 @@ function run(Player)
 		end
 	end)
 
-    -- Вызов функции создания GUI
+    -- Вызов функции создания GUI, который добавляет интерактивную панель
     Function.CreateMorphGUI()
 
 end
