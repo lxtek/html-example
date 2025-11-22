@@ -49,7 +49,7 @@ function run(Player)
 
 	function Function.PartListDefault()	
 		return {
-			ClemonFemale = {
+			RobotFemale = {
 				Limbs = {
 					["Left Leg"] = {
 						["Instance"] = "Mesh",
@@ -276,17 +276,17 @@ function run(Player)
 						}
 					},
 				},
-				Vaginas = {
-					Closed = {
-						["[A] Vagina"] = {
+				Cavities = {
+					Sealed = {
+						["[A] Cavity"] = {
 							["Instance"] = "Part",
 							["Color"] = 0.9973507482925269,
 							["Parent"] = {
-								[1] = "Closed"
+								[1] = "Sealed"
 							},
 							["Function"] = {},
 							["Transparency"] = 0,
-							["Name"] = "[A] Vagina",
+							["Name"] = "[A] Cavity",
 							["Mesh"] = {
 								["Scale"] = {
 									["y"] = 1.0099999904632568,
@@ -298,7 +298,7 @@ function run(Player)
 								["TextureId"] = ""
 							},
 							["Joint"] = {
-								["Part0"] = "Closed",
+								["Part0"] = "Sealed",
 								["CFrame"] = {
 									["Rotation"] = {
 										["y"] = 0.00010906826101211563,
@@ -332,15 +332,15 @@ function run(Player)
 								["z"] = 0.452888548374176
 							}
 						},
-						["[Skin] Majora R"] = {
+						["[Surface] Panel R"] = {
 							["Instance"] = "Part",
 							["Color"] = "Base",
 							["Parent"] = {
-								[1] = "Closed"
+								[1] = "Sealed"
 							},
 							["Function"] = {},
 							["Transparency"] = 0,
-							["Name"] = "[Skin] Majora R",
+							["Name"] = "[Surface] Panel R",
 							["Mesh"] = {
 								["Scale"] = {
 									["y"] = 1,
@@ -352,7 +352,7 @@ function run(Player)
 								["TextureId"] = ""
 							},
 							["Joint"] = {
-								["Part0"] = "Closed",
+								["Part0"] = "Sealed",
 								["CFrame"] = {
 									["Rotation"] = {
 										["y"] = -10.699208735748066,
@@ -386,15 +386,15 @@ function run(Player)
 								["z"] = 0.5753535628318787
 							}
 						},
-						["[Skin] Majora A.1"] = {
+						["[Surface] Panel A.1"] = {
 							["Instance"] = "Part",
 							["Color"] = 0.9973507482925269,
 							["Parent"] = {
-								[1] = "Closed"
+								[1] = "Sealed"
 							},
 							["Function"] = {},
 							["Transparency"] = 0,
-							["Name"] = "[Skin] Majora A.1",
+							["Name"] = "[Surface] Panel A.1",
 							["Mesh"] = {
 								["Scale"] = {
 									["y"] = 1,
@@ -406,7 +406,7 @@ function run(Player)
 								["TextureId"] = ""
 							},
 							["Joint"] = {
-								["Part0"] = "Closed",
+								["Part0"] = "Sealed",
 								["CFrame"] = {
 									["Rotation"] = {
 										["y"] = 68.46451850426551,
@@ -440,15 +440,15 @@ function run(Player)
 								["z"] = 0.24876534938812256
 							}
 						},
-						["[B] Vulva.1"] = {
+						["[B] Shell.1"] = {
 							["Instance"] = "Part",
 							["Color"] = 0.9973507482925269,
 							["Parent"] = {
-								[1] = "Closed"
+								[1] = "Sealed"
 							},
 							["Function"] = {},
 							["Transparency"] = 0,
-							["Name"] = "[B] Vulva.1",
+							["Name"] = "[B] Shell.1",
 							["Mesh"] = {
 								["Scale"] = {
 									["y"] = 1,
@@ -460,7 +460,7 @@ function run(Player)
 								["TextureId"] = ""
 							},
 							["Joint"] = {
-								["Part0"] = "Closed",
+								["Part0"] = "Sealed",
 								["CFrame"] = {
 									["Rotation"] = {
 										["y"] = 0.0002534274959200993,
@@ -494,15 +494,15 @@ function run(Player)
 								["z"] = 0.452888548374176
 							}
 						},
-						["[B] Clitoris"] = {
+						["[B] Sensor"] = {
 							["Instance"] = "Part",
 							["Color"] = 0.9973507482925269,
 							["Parent"] = {
-								[1] = "Closed"
+								[1] = "Sealed"
 							},
 							["Function"] = {},
 							["Transparency"] = 0,
-							["Name"] = "[B] Clitoris",
+							["Name"] = "[B] Sensor",
 							["Mesh"] = {
 								["Scale"] = {
 									["y"] = 0.10383700579404831,
@@ -514,7 +514,7 @@ function run(Player)
 								["TextureId"] = ""
 							},
 							["Joint"] = {
-								["Part0"] = "Closed",
+								["Part0"] = "Sealed",
 								["CFrame"] = {
 									["Rotation"] = {
 										["y"] = -0.00068733999966085,
@@ -548,15 +548,15 @@ function run(Player)
 								["z"] = 0.4109854996204376
 							}
 						},
-						["[B] Clitoris.1"] = {
+						["[B] Sensor.1"] = {
 							["Instance"] = "Part",
 							["Color"] = 0.9973507482925269,
 							["Parent"] = {
-								[1] = "Closed"
+								[1] = "Sealed"
 							},
 							["Function"] = {},
 							["Transparency"] = 0,
-							["Name"] = "[B] Clitoris.1",
+							["Name"] = "[B] Sensor.1",
 							["Mesh"] = {
 								["Scale"] = {
 									["y"] = 0.1970651000738144,
@@ -568,7 +568,7 @@ function run(Player)
 								["TextureId"] = ""
 							},
 							["Joint"] = {
-								["Part0"] = "Closed",
+								["Part0"] = "Sealed",
 								["CFrame"] = {
 									["Rotation"] = {
 										["y"] = -0.0007886732493942861,
@@ -602,15 +602,15 @@ function run(Player)
 								["z"] = 0.4109854996204376
 							}
 						},
-						["[Skin] Majora L"] = {
+						["[Surface] Panel L"] = {
 							["Instance"] = "Part",
 							["Color"] = "Base",
 							["Parent"] = {
-								[1] = "Closed"
+								[1] = "Sealed"
 							},
 							["Function"] = {},
 							["Transparency"] = 0,
-							["Name"] = "[Skin] Majora L",
+							["Name"] = "[Surface] Panel L",
 							["Mesh"] = {
 								["Scale"] = {
 									["y"] = 1,
@@ -622,7 +622,7 @@ function run(Player)
 								["TextureId"] = ""
 							},
 							["Joint"] = {
-								["Part0"] = "Closed",
+								["Part0"] = "Sealed",
 								["CFrame"] = {
 									["Rotation"] = {
 										["y"] = 10.699028589508705,
@@ -656,15 +656,15 @@ function run(Player)
 								["z"] = 0.5753535628318787
 							}
 						},
-						["[B] Vulva"] = {
+						["[B] Shell"] = {
 							["Instance"] = "Part",
 							["Color"] = 0.9973507482925269,
 							["Parent"] = {
-								[1] = "Closed"
+								[1] = "Sealed"
 							},
 							["Function"] = {},
 							["Transparency"] = 0,
-							["Name"] = "[B] Vulva",
+							["Name"] = "[B] Shell",
 							["Mesh"] = {
 								["Scale"] = {
 									["y"] = 0.8546401262283325,
@@ -676,7 +676,7 @@ function run(Player)
 								["TextureId"] = ""
 							},
 							["Joint"] = {
-								["Part0"] = "Closed",
+								["Part0"] = "Sealed",
 								["CFrame"] = {
 									["Rotation"] = {
 										["y"] = 0.00010423260307706939,
@@ -710,15 +710,15 @@ function run(Player)
 								["z"] = 0.4109854996204376
 							}
 						},
-						["[Skin] Majora A"] = {
+						["[Surface] Panel A"] = {
 							["Instance"] = "Part",
 							["Color"] = "Base",
 							["Parent"] = {
-								[1] = "Closed"
+								[1] = "Sealed"
 							},
 							["Function"] = {},
 							["Transparency"] = 0,
-							["Name"] = "[Skin] Majora A",
+							["Name"] = "[Surface] Panel A",
 							["Mesh"] = {
 								["Scale"] = {
 									["y"] = 1,
@@ -730,7 +730,7 @@ function run(Player)
 								["TextureId"] = ""
 							},
 							["Joint"] = {
-								["Part0"] = "Closed",
+								["Part0"] = "Sealed",
 								["CFrame"] = {
 									["Rotation"] = {
 										["y"] = 10.699040542339754,
@@ -766,13 +766,13 @@ function run(Player)
 						}
 					} 
 				},
-				Breasts = {
-					["BreastsRoot"] = {
+				Compartments = {
+					["CompartmentsRoot"] = {
 						["Instance"] = "Part",
 						["Color"] = "Base",
-						["Function"] = {"BreastUVPhysics"},
+						["Function"] = {"CompartmentUVPhysics"},
 						["Transparency"] = 1,
-						["Name"] = "BreastsRoot",
+						["Name"] = "CompartmentsRoot",
 						["Parent"] = {
 							[1] = "Torso"
 						},
@@ -811,19 +811,19 @@ function run(Player)
 							["z"] = 0.09399651736021042
 						},
 					},
-					["BreastTexture"] = {
+					["CompartmentTexture"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxassetid://7606070501",
 						["Color"] = "Base",
 						["Function"] = {},
 						["Transparency"] = 1,
-						["Name"] = "BreastTexture",
+						["Name"] = "CompartmentTexture",
 						["Parent"] = {
 							[1] = "Torso",
-							[2] = "BreastsRoot"
+							[2] = "CompartmentsRoot"
 						},
 						["Joint"] = {
-							["Part0"] = "BreastsRoot",
+							["Part0"] = "CompartmentsRoot",
 							["CFrame"] = {
 								["Rotation"] = {
 									["y"] = -90.0000639761807,
@@ -857,20 +857,20 @@ function run(Player)
 							["z"] = 1.6919373273849487
 						}
 					},
-					["BreastPantsUV"] = {
+					["CompartmentClothingUV"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxassetid://7606070501",
 						["Color"] = "Base",
 						["Function"] = {},
 						["Transparency"] = 1,
-						["Name"] = "BreastPantsUV",
+						["Name"] = "CompartmentClothingUV",
 						["Parent"] = {
 							[1] = "Torso",
-							[2] = "BreastsRoot",
-							[3] = "BreastTexture"
+							[2] = "CompartmentsRoot",
+							[3] = "CompartmentTexture"
 						},
 						["Joint"] = {
-							["Part0"] = "BreastTexture",
+							["Part0"] = "CompartmentTexture",
 							["CFrame"] = {
 								["Rotation"] = {
 									["y"] = 0,
@@ -904,17 +904,17 @@ function run(Player)
 							["z"] = 1.6919373273849487
 						}
 					},
-					["Right Breasts"] = {
+					["Right Compartment"] = {
 						["Instance"] = "Part",
 						["Color"] = "Base",
 						["Parent"] = {
 							[1] = "Torso",
-							[2] = "BreastsRoot",
-							[3] = "BreastTexture"
+							[2] = "CompartmentsRoot",
+							[3] = "CompartmentTexture"
 						},
-						["Function"] = {"AreolaDecalCreate","BreastPhysics"},
+						["Function"] = {"RingDecalCreate","CompartmentPhysics"},
 						["Transparency"] = 0,
-						["Name"] = "Right Breasts",
+						["Name"] = "Right Compartment",
 						["Mesh"] = {
 							["Scale"] = {
 								["y"] = 1,
@@ -926,7 +926,7 @@ function run(Player)
 							["TextureId"] = ""
 						},
 						["Joint"] = {
-							["Part0"] = "BreastTexture",
+							["Part0"] = "CompartmentTexture",
 							["CFrame"] = {
 								["Rotation"] = {
 									["y"] = -90.00100654228616,
@@ -961,17 +961,17 @@ function run(Player)
 						},
 						["AdjustScale"] = {"Size"},
 					},
-					["Left Breasts"] = {
+					["Left Compartment"] = {
 						["Instance"] = "Part",
 						["Color"] = "Base",
 						["Parent"] = {
 							[1] = "Torso",
-							[2] = "BreastsRoot",
-							[3] = "BreastTexture"
+							[2] = "CompartmentsRoot",
+							[3] = "CompartmentTexture"
 						},
-						["Function"] = {"AreolaDecalCreate","BreastPhysics"},
+						["Function"] = {"RingDecalCreate","CompartmentPhysics"},
 						["Transparency"] = 0,
-						["Name"] = "Left Breasts",
+						["Name"] = "Left Compartment",
 						["Mesh"] = {
 							["Scale"] = {
 								["y"] = 1,
@@ -983,7 +983,7 @@ function run(Player)
 							["TextureId"] = ""
 						},
 						["Joint"] = {
-							["Part0"] = "BreastTexture",
+							["Part0"] = "CompartmentTexture",
 							["CFrame"] = {
 								["Rotation"] = {
 									["y"] = -90.00084944793525,
@@ -1018,21 +1018,21 @@ function run(Player)
 						},
 						["AdjustScale"] = {"Size"},
 					},
-					["NippleL"] = {
+					["ActuatorL"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxassetid://5270413936",
 						["Color"] = 0.9973507482925269,
 						["Function"] = {},
 						["Transparency"] = 0,
-						["Name"] = "NippleL",
+						["Name"] = "ActuatorL",
 						["Parent"] = {
 							[1] = "Torso",
-							[2] = "BreastsRoot",
-							[3] = "BreastTexture",
-							[4] = "Left Breasts"
+							[2] = "CompartmentsRoot",
+							[3] = "CompartmentTexture",
+							[4] = "Left Compartment"
 						},
 						["Joint"] = {
-							["Part0"] = "Left Breasts",
+							["Part0"] = "Left Compartment",
 							["CFrame"] = {
 								["Rotation"] = {
 									["y"] = -90.00002982523485,
@@ -1067,21 +1067,21 @@ function run(Player)
 						},
 						["AdjustScale"] = {"Size","CFrame"},
 					},
-					["NippleR"] = {
+					["ActuatorR"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxassetid://5270413632",
 						["Color"] = 0.9973507482925269,
 						["Function"] = {},
 						["Transparency"] = 0,
-						["Name"] = "NippleR",
+						["Name"] = "ActuatorR",
 						["Parent"] = {
 							[1] = "Torso",
-							[2] = "BreastsRoot",
-							[3] = "BreastTexture",
-							[4] = "Right Breasts",
+							[2] = "CompartmentsRoot",
+							[3] = "CompartmentTexture",
+							[4] = "Right Compartment",
 						},
 						["Joint"] = {
-							["Part0"] = "Right Breasts",
+							["Part0"] = "Right Compartment",
 							["CFrame"] = {
 								["Rotation"] = {
 									["y"] = -90.00003665542401,
@@ -1262,19 +1262,19 @@ function run(Player)
 					}
 				},
 			},
-			ClemonMale =   {
+			RobotMale =   {
 				Limbs = {},
-				Breasts = {},
-				Butts = {				["Right Butt"] = {
+				Compartments = {},
+				Sections = {				["Right Section"] = {
 					["Instance"] = "Mesh",
 					["MeshId"] = "rbxassetid://6349489786",
 					["Color"] = "Base",
 					["Parent"] = {
 						[1] = "Torso"
 					},
-					["Function"] = {"ButtPhysics"},
+					["Function"] = {"SectionPhysics"},
 					["Transparency"] = 0,
-					["Name"] = "Right Butt",
+					["Name"] = "Right Section",
 					["Extra"] = {},
 					["Joint"] = {
 						["Part0"] = "Torso",
@@ -1310,16 +1310,16 @@ function run(Player)
 						["x"] = 1.2064599990844727,
 						["z"] = 1.0168464183807373
 					}
-				},	["Left Butt"] = {
+				},	["Left Section"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxassetid://6349489786",
 						["Color"] = "Base",
 						["Parent"] = {
 							[1] = "Torso"
 						},
-						["Function"] = {"ButtPhysics"},
+						["Function"] = {"SectionPhysics"},
 						["Transparency"] = 0,
-						["Name"] = "Left Butt",
+						["Name"] = "Left Section",
 						["Extra"] = {},
 						["Joint"] = {
 							["Part0"] = "Torso",
@@ -1356,18 +1356,18 @@ function run(Player)
 							["z"] = 1.0168464183807373
 						}
 					},},
-				Main = {				["Penis"] = {
+				Main = {				["Rod"] = {
 					["Instance"] = "Mesh",
 					["MeshId"] = "rbxassetid://17248394821",
 					["Color"] = "Base",
 					["Parent"] = {
 						[1] = "Torso",
-						[2] = "SCBalls"
+						[2] = "Spheres"
 					},
-					["Function"] = {"BreastPhysics",["createSurfaceAppearance"] = {{["ColorMap"] = "rbxassetid://17250389398", ["Color"] = "Dark"}}
+					["Function"] = {"CompartmentPhysics",["createSurfaceAppearance"] = {{["ColorMap"] = "rbxassetid://17250389398", ["Color"] = "Dark"}}
 					},
 					["Transparency"] = 0,
-					["Name"] = "Penis",
+					["Name"] = "Rod",
 					["Extra"] = {
 						["Decal"] = {
 							["Transparency"] = 0,
@@ -1378,7 +1378,7 @@ function run(Player)
 						}
 					},
 					["Joint"] = {
-						["Part0"] = "SCBalls",
+						["Part0"] = "Spheres",
 						["CFrame"] = {
 							["Rotation"] = {
 								["y"] = 4.0711274635819765e-13,
@@ -1413,7 +1413,7 @@ function run(Player)
 					},
 					["UV"] = false
 				},
-					["SCBalls"] = {
+					["Spheres"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxassetid://17248394631",
 						["Color"] = "Base",
@@ -1422,7 +1422,7 @@ function run(Player)
 						},
 						["Function"] = {},
 						["Transparency"] = 0,
-						["Name"] = "SCBalls",
+						["Name"] = "Spheres",
 						["Extra"] = {},
 						["Joint"] = {
 							["Part0"] = "Torso",
@@ -1499,7 +1499,7 @@ function run(Player)
 							["z"] = 0.8962461948394775
 						}
 					},
-					["Right Butt Skin"] = {
+					["Right Section Surface"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxassetid://17106927899",
 						["Color"] = "Base",
@@ -1509,7 +1509,7 @@ function run(Player)
 						},
 						["Function"] = {},
 						["Transparency"] = 1,
-						["Name"] = "Right Butt Skin",
+						["Name"] = "Right Section Surface",
 						["Extra"] = {},
 						["Joint"] = {
 							["Part0"] = "PantsUVRight",
@@ -1766,7 +1766,7 @@ function run(Player)
 							["z"] = 0.3225541114807129
 						}
 					},
-					["Left Butt Skin"] = {
+					["Left Section Surface"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxassetid://17106927899",
 						["Color"] = "Base",
@@ -1776,7 +1776,7 @@ function run(Player)
 						},
 						["Function"] = {},
 						["Transparency"] = 1,
-						["Name"] = "Left Butt Skin",
+						["Name"] = "Left Section Surface",
 						["Extra"] = {},
 						["Joint"] = {
 							["Part0"] = "PantsUVLeft",
@@ -1862,21 +1862,21 @@ function run(Player)
 
 		
 			},
-			RoClothes1 =  {
-				Breasts = {
-					["Nipple.1"] = {
+			RobotClothes1 =  {
+				Compartments = {
+					["Actuator.1"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxasset://17645756055.mesh",
 						["Color"] = 0.9956726629181989,
 						["Function"] = {},
 						["Transparency"] = 0,
-						["Name"] = "Nipple.1",
+						["Name"] = "Actuator.1",
 						["Parent"] = {
 							[1] = "Torso",
-							[2] = "Right Breast"
+							[2] = "Right Compartment"
 						},
 						["Joint"] = {
-							["Part0"] = "Right Breast",
+							["Part0"] = "Right Compartment",
 							["CFrame"] = {
 								["Rotation"] = {
 									["y"] = -0.995776694190744,
@@ -1911,19 +1911,19 @@ function run(Player)
 						},
 						["AdjustScale"] = {"Size","CFrame"},
 					},
-					["Nipple"] = {
+					["Actuator"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxasset://17645756055.mesh",
 						["Color"] = 0.9956726629181989,
 						["Function"] = {},
 						["Transparency"] = 0,
-						["Name"] = "Nipple",
+						["Name"] = "Actuator",
 						["Parent"] = {
 							[1] = "Torso",
-							[2] = "Left Breast"
+							[2] = "Left Compartment"
 						},
 						["Joint"] = {
-							["Part0"] = "Left Breast",
+							["Part0"] = "Left Compartment",
 							["CFrame"] = {
 								["Rotation"] = {
 									["y"] = -0.9319453747458013,
@@ -1958,13 +1958,13 @@ function run(Player)
 						},
 						["AdjustScale"] = {"Size","CFrame"},
 					},
-					["Left Breast"] = {
+					["Left Compartment"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxasset://17645666081.mesh",
 						["Color"] = "Base",
-						["Function"] = {"AreolaDecalCreate","BreastPhysics"},
+						["Function"] = {"RingDecalCreate","CompartmentPhysics"},
 						["Transparency"] = 0,
-						["Name"] = "Left Breast",
+						["Name"] = "Left Compartment",
 						["Parent"] = {
 							[1] = "Torso"
 						},
@@ -2010,14 +2010,14 @@ function run(Player)
 							},
 						},
 						["Extra"] = {
-							["Areola Decal 1"] = {
+							["Ring Decal 1"] = {
 								["Transparency"] = 0,
 								["Color3"] = "255,167.00000524520874,169.00000512599945",
 								["ZIndex"] = 1,
 								["Face"] = Enum.NormalId.Left,
 								["Texture"] = "rbxasset://6667257628.png"
 							},
-							["Areola Decal 2"] = {
+							["Ring Decal 2"] = {
 								["Transparency"] = 0,
 								["Color3"] = "255,167.00000524520874,169.00000512599945",
 								["ZIndex"] = 1,
@@ -2028,13 +2028,13 @@ function run(Player)
 					},
 
 
-					["Right Breast"] = {
+					["Right Compartment"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxasset://17645666081.mesh",
 						["Color"] = "Base",
-						["Function"] = {'AreolaDecalCreate',"BreastPhysics"},
+						["Function"] = {'RingDecalCreate',"CompartmentPhysics"},
 						["Transparency"] = 0,
-						["Name"] = "Right Breast",
+						["Name"] = "Right Compartment",
 						["Parent"] = {
 							[1] = "Torso"
 						},
@@ -2080,14 +2080,14 @@ function run(Player)
 							},
 						},
 						["Extra"] = {
-							["Areola Decal 1"] = {
+							["Ring Decal 1"] = {
 								["Transparency"] = 0,
 								["Color3"] = "255,167.00000524520874,169.00000512599945",
 								["ZIndex"] = 1,
 								["Face"] = Enum.NormalId.Left,
 								["Texture"] = "rbxasset://6667257628.png"
 							},
-							["Areola Decal 2"] = {
+							["Ring Decal 2"] = {
 								["Transparency"] = 0,
 								["Color3"] = "255,167.00000524520874,169.00000512599945",
 								["ZIndex"] = 1,
@@ -2097,14 +2097,14 @@ function run(Player)
 						},
 					},	
 				},
-				Butts = {
-					["Right Butt"] = {
+				Sections = {
+					["Right Section"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxasset://13181475663.mesh",
 						["Color"] = "Base",
-						["Function"] = {"ButtPhysics"},
+						["Function"] = {"SectionPhysics"},
 						["Transparency"] = 0,
-						["Name"] = "Right Butt",
+						["Name"] = "Right Section",
 						["Parent"] = {
 							[1] = "Torso"
 						},
@@ -2143,13 +2143,13 @@ function run(Player)
 							["z"] = 1.2630000114440918
 						}
 					},
-					["Left Butt"] = {
+					["Left Section"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxasset://13181475662.mesh",
 						["Color"] = "Base",
-						["Function"] = {"ButtPhysics"},
+						["Function"] = {"SectionPhysics"},
 						["Transparency"] = 0,
-						["Name"] = "Left Butt",
+						["Name"] = "Left Section",
 						["Parent"] = {
 							[1] = "Torso"
 						},
@@ -2433,8 +2433,8 @@ function run(Player)
 
 			CurrentClothes = {},
 			PartList = Function.PartListDefault(),
-			BreastsScale = 2,
-			ButtsScale = 100,
+			CompartmentsScale = 2,
+			SectionsScale = 100,
 			BodyPartPhysics = true,
 			CurrentPartList = {
 				Organ = {},
@@ -2457,7 +2457,7 @@ function run(Player)
 			},
 			UVToggle = false,
 			deferredWelds = {},
-			SelectedMorph = Function.PartListDefault().ClemonFemale
+			SelectedMorph = Function.PartListDefault().RobotFemale
 		}
 	end
 
@@ -2620,12 +2620,12 @@ function run(Player)
 	end
 
 
-	function Function.AreolaDecalCreate(ObjectInstance, Character, Extra, Data)
+	function Function.RingDecalCreate(ObjectInstance, Character, Extra, Data)
 		local Decal = Instance.new("Decal", ObjectInstance)
 		Decal.Color3 = Color3.fromRGB(110, 110, 111)
 		Decal.Texture = "http://www.roblox.com/asset/?id=9065282081"
 		Decal.Face = "Right"
-		Decal.Name = "Areola Decal"
+		Decal.Name = "Ring Decal"
 		PlayerData[Data].CurrentPartList.AreolaDecal[Decal] = ObjectInstance
 
 
@@ -2725,7 +2725,7 @@ function run(Player)
 		end
 	end
 
-	function Function.BreastPhysics(ObjectInstance, Character, Extra, Data)
+	function Function.CompartmentPhysics(ObjectInstance, Character, Extra, Data)
 		if PlayerData[Data].BodyPartPhysics and not PlayerData[Data].UVToggle then
 			local Torso = Character:FindFirstChild("Torso")
 
@@ -2774,7 +2774,7 @@ function run(Player)
 		end
 	end
 
-	function Function.BreastUVPhysics(ObjectInstance, Character, Extra, Data)
+	function Function.CompartmentUVPhysics(ObjectInstance, Character, Extra, Data)
 		if PlayerData[Data].BodyPartPhysics and PlayerData[Data].UVToggle then
 			local Torso = Character:FindFirstChild("Torso")
 
@@ -2825,7 +2825,7 @@ function run(Player)
 	end
 
 
-	function Function.ButtPhysics(ObjectInstance, Character, Extra, Data)
+	function Function.SectionPhysics(ObjectInstance, Character, Extra, Data)
 		if PlayerData[Data].BodyPartPhysics then
 			local Torso = Character:FindFirstChild("Torso")
 
@@ -3103,8 +3103,8 @@ function run(Player)
 							v:FindFirstChildOfClass("Decal"):Destroy()
 						end
 					end
-					if Character.Morph:FindFirstChild("Closed") then
-						Character.Morph.Closed:Destroy()
+					if Character.Morph:FindFirstChild("Sealed") then
+						Character.Morph.Sealed:Destroy()
 					end
 					Function.ApplyUV(ObjectInstance, Character, Extra, Data)
 				end
@@ -3349,8 +3349,8 @@ function run(Player)
 				end)
 
 				pcall(function()
-					for name, object in pairs(SelectedMorph.Vaginas) do
-						local VModel = createContainer("Closed")
+					for name, object in pairs(SelectedMorph.Cavities) do
+						local VModel = createContainer("Sealed")
 						VModel.Color = Character.Torso.Color
 						local Weld = createWeld(VModel)
 						Weld.Part0 = Morph.Torso
@@ -3364,8 +3364,8 @@ function run(Player)
 				end)
 
 				pcall(function()
-					for name, object in pairs(SelectedMorph.Breasts) do
-						object["Scale"] = "BreastsScale"
+					for name, object in pairs(SelectedMorph.Compartments) do
+						object["Scale"] = "CompartmentsScale"
 						Function.Weld(object, Character,Extra, Data)
 					end
 				end)
@@ -3543,17 +3543,17 @@ function run(Player)
 				warn("Toggled UV")
 			end
 			if input.KeyCode == Enum.KeyCode.RightBracket then
-				PlayerData[Player.Name].BreastsScale = PlayerData[Player.Name].BreastsScale+ 0.2
-				warn("Breasts set to "..	PlayerData[Player.Name].BreastsScale)
-				PlayerData[Player.Name].ButtsScale = PlayerData[Player.Name].ButtsScale+ 5
-				warn("Butts set to "..	PlayerData[Player.Name].ButtsScale)
+				PlayerData[Player.Name].CompartmentsScale = PlayerData[Player.Name].CompartmentsScale+ 0.2
+				warn("Compartments set to "..	PlayerData[Player.Name].CompartmentsScale)
+				PlayerData[Player.Name].SectionsScale = PlayerData[Player.Name].SectionsScale+ 5
+				warn("Sections set to "..	PlayerData[Player.Name].SectionsScale)
 				Function.CharacterExecute(Player.Character, Player.Name)
 			end
 			if input.KeyCode == Enum.KeyCode.LeftBracket then
-				PlayerData[Player.Name].BreastsScale = PlayerData[Player.Name].BreastsScale- 0.2
-				warn("Breasts set to "..	PlayerData[Player.Name].BreastsScale)
-				PlayerData[Player.Name].ButtsScale = PlayerData[Player.Name].ButtsScale- 5
-				warn("Butts set to "..	PlayerData[Player.Name].ButtsScale)
+				PlayerData[Player.Name].CompartmentsScale = PlayerData[Player.Name].CompartmentsScale- 0.2
+				warn("Compartments set to "..	PlayerData[Player.Name].CompartmentsScale)
+				PlayerData[Player.Name].SectionsScale = PlayerData[Player.Name].SectionsScale- 5
+				warn("Sections set to "..	PlayerData[Player.Name].SectionsScale)
 				Function.CharacterExecute(Player.Character, Player.Name)
 			end
 			if input.KeyCode == Enum.KeyCode.B then
