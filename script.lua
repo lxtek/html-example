@@ -4,6 +4,7 @@ local Function = {}
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
 
 
 function run(Player)
@@ -49,7 +50,7 @@ function run(Player)
 
 	function Function.PartListDefault()	
 		return {
-			ClemonFemale = {
+			RobotFemale = {
 				Limbs = {
 					["Left Leg"] = {
 						["Instance"] = "Mesh",
@@ -277,12 +278,12 @@ function run(Player)
 					},
 				},
 				Groinparts = {
-					Closed = {
+					Sealed = {
 						["[A] Groin"] = {
 							["Instance"] = "Part",
 							["Color"] = 0.9973507482925269,
 							["Parent"] = {
-								[1] = "Closed"
+								[1] = "Sealed"
 							},
 							["Function"] = {},
 							["Transparency"] = 0,
@@ -298,7 +299,7 @@ function run(Player)
 								["TextureId"] = ""
 							},
 							["Joint"] = {
-								["Part0"] = "Closed",
+								["Part0"] = "Sealed",
 								["CFrame"] = {
 									["Rotation"] = {
 										["y"] = 0.00010906826101211563,
@@ -332,15 +333,15 @@ function run(Player)
 								["z"] = 0.452888548374176
 							}
 						},
-						["[Skin] Majora R"] = {
+						["[Surface] Panel R"] = {
 							["Instance"] = "Part",
 							["Color"] = "Base",
 							["Parent"] = {
-								[1] = "Closed"
+								[1] = "Sealed"
 							},
 							["Function"] = {},
 							["Transparency"] = 0,
-							["Name"] = "[Skin] Majora R",
+							["Name"] = "[Surface] Panel R",
 							["Mesh"] = {
 								["Scale"] = {
 									["y"] = 1,
@@ -352,7 +353,7 @@ function run(Player)
 								["TextureId"] = ""
 							},
 							["Joint"] = {
-								["Part0"] = "Closed",
+								["Part0"] = "Sealed",
 								["CFrame"] = {
 									["Rotation"] = {
 										["y"] = -10.699208735748066,
@@ -386,15 +387,15 @@ function run(Player)
 								["z"] = 0.5753535628318787
 							}
 						},
-						["[Skin] Majora A.1"] = {
+						["[Surface] Panel A.1"] = {
 							["Instance"] = "Part",
 							["Color"] = 0.9973507482925269,
 							["Parent"] = {
-								[1] = "Closed"
+								[1] = "Sealed"
 							},
 							["Function"] = {},
 							["Transparency"] = 0,
-							["Name"] = "[Skin] Majora A.1",
+							["Name"] = "[Surface] Panel A.1",
 							["Mesh"] = {
 								["Scale"] = {
 									["y"] = 1,
@@ -406,7 +407,7 @@ function run(Player)
 								["TextureId"] = ""
 							},
 							["Joint"] = {
-								["Part0"] = "Closed",
+								["Part0"] = "Sealed",
 								["CFrame"] = {
 									["Rotation"] = {
 										["y"] = 68.46451850426551,
@@ -444,7 +445,7 @@ function run(Player)
 							["Instance"] = "Part",
 							["Color"] = 0.9973507482925269,
 							["Parent"] = {
-								[1] = "Closed"
+								[1] = "Sealed"
 							},
 							["Function"] = {},
 							["Transparency"] = 0,
@@ -460,7 +461,7 @@ function run(Player)
 								["TextureId"] = ""
 							},
 							["Joint"] = {
-								["Part0"] = "Closed",
+								["Part0"] = "Sealed",
 								["CFrame"] = {
 									["Rotation"] = {
 										["y"] = 0.0002534274959200993,
@@ -498,7 +499,7 @@ function run(Player)
 							["Instance"] = "Part",
 							["Color"] = 0.9973507482925269,
 							["Parent"] = {
-								[1] = "Closed"
+								[1] = "Sealed"
 							},
 							["Function"] = {},
 							["Transparency"] = 0,
@@ -514,7 +515,7 @@ function run(Player)
 								["TextureId"] = ""
 							},
 							["Joint"] = {
-								["Part0"] = "Closed",
+								["Part0"] = "Sealed",
 								["CFrame"] = {
 									["Rotation"] = {
 										["y"] = -0.00068733999966085,
@@ -552,7 +553,7 @@ function run(Player)
 							["Instance"] = "Part",
 							["Color"] = 0.9973507482925269,
 							["Parent"] = {
-								[1] = "Closed"
+								[1] = "Sealed"
 							},
 							["Function"] = {},
 							["Transparency"] = 0,
@@ -568,7 +569,7 @@ function run(Player)
 								["TextureId"] = ""
 							},
 							["Joint"] = {
-								["Part0"] = "Closed",
+								["Part0"] = "Sealed",
 								["CFrame"] = {
 									["Rotation"] = {
 										["y"] = -0.0007886732493942861,
@@ -602,15 +603,15 @@ function run(Player)
 								["z"] = 0.4109854996204376
 							}
 						},
-						["[Skin] Majora L"] = {
+						["[Surface] Panel L"] = {
 							["Instance"] = "Part",
 							["Color"] = "Base",
 							["Parent"] = {
-								[1] = "Closed"
+								[1] = "Sealed"
 							},
 							["Function"] = {},
 							["Transparency"] = 0,
-							["Name"] = "[Skin] Majora L",
+							["Name"] = "[Surface] Panel L",
 							["Mesh"] = {
 								["Scale"] = {
 									["y"] = 1,
@@ -622,7 +623,7 @@ function run(Player)
 								["TextureId"] = ""
 							},
 							["Joint"] = {
-								["Part0"] = "Closed",
+								["Part0"] = "Sealed",
 								["CFrame"] = {
 									["Rotation"] = {
 										["y"] = 10.699028589508705,
@@ -660,7 +661,7 @@ function run(Player)
 							["Instance"] = "Part",
 							["Color"] = 0.9973507482925269,
 							["Parent"] = {
-								[1] = "Closed"
+								[1] = "Sealed"
 							},
 							["Function"] = {},
 							["Transparency"] = 0,
@@ -676,7 +677,7 @@ function run(Player)
 								["TextureId"] = ""
 							},
 							["Joint"] = {
-								["Part0"] = "Closed",
+								["Part0"] = "Sealed",
 								["CFrame"] = {
 									["Rotation"] = {
 										["y"] = 0.00010423260307706939,
@@ -710,15 +711,15 @@ function run(Player)
 								["z"] = 0.4109854996204376
 							}
 						},
-						["[Skin] Majora A"] = {
+						["[Surface] Panel A"] = {
 							["Instance"] = "Part",
 							["Color"] = "Base",
 							["Parent"] = {
-								[1] = "Closed"
+								[1] = "Sealed"
 							},
 							["Function"] = {},
 							["Transparency"] = 0,
-							["Name"] = "[Skin] Majora A",
+							["Name"] = "[Surface] Panel A",
 							["Mesh"] = {
 								["Scale"] = {
 									["y"] = 1,
@@ -730,7 +731,7 @@ function run(Player)
 								["TextureId"] = ""
 							},
 							["Joint"] = {
-								["Part0"] = "Closed",
+								["Part0"] = "Sealed",
 								["CFrame"] = {
 									["Rotation"] = {
 										["y"] = 10.699040542339754,
@@ -767,12 +768,12 @@ function run(Player)
 					} 
 				},
 				Chests = {
-					["BreastsRoot"] = {
+					["CompartmentsRoot"] = {
 						["Instance"] = "Part",
 						["Color"] = "Base",
-						["Function"] = {"BreastUVPhysics"},
+						["Function"] = {"CompartmentUVPhysics"},
 						["Transparency"] = 1,
-						["Name"] = "BreastsRoot",
+						["Name"] = "CompartmentsRoot",
 						["Parent"] = {
 							[1] = "Torso"
 						},
@@ -811,19 +812,19 @@ function run(Player)
 							["z"] = 0.09399651736021042
 						},
 					},
-					["BreastTexture"] = {
+					["CompartmentTexture"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxassetid://7606070501",
 						["Color"] = "Base",
 						["Function"] = {},
 						["Transparency"] = 1,
-						["Name"] = "BreastTexture",
+						["Name"] = "CompartmentTexture",
 						["Parent"] = {
 							[1] = "Torso",
-							[2] = "BreastsRoot"
+							[2] = "CompartmentsRoot"
 						},
 						["Joint"] = {
-							["Part0"] = "BreastsRoot",
+							["Part0"] = "CompartmentsRoot",
 							["CFrame"] = {
 								["Rotation"] = {
 									["y"] = -90.0000639761807,
@@ -857,20 +858,20 @@ function run(Player)
 							["z"] = 1.6919373273849487
 						}
 					},
-					["BreastPantsUV"] = {
+					["CompartmentClothingUV"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxassetid://7606070501",
 						["Color"] = "Base",
 						["Function"] = {},
 						["Transparency"] = 1,
-						["Name"] = "BreastPantsUV",
+						["Name"] = "CompartmentClothingUV",
 						["Parent"] = {
 							[1] = "Torso",
-							[2] = "BreastsRoot",
-							[3] = "BreastTexture"
+							[2] = "CompartmentsRoot",
+							[3] = "CompartmentTexture"
 						},
 						["Joint"] = {
-							["Part0"] = "BreastTexture",
+							["Part0"] = "CompartmentTexture",
 							["CFrame"] = {
 								["Rotation"] = {
 									["y"] = 0,
@@ -909,10 +910,10 @@ function run(Player)
 						["Color"] = "Base",
 						["Parent"] = {
 							[1] = "Torso",
-							[2] = "BreastsRoot",
-							[3] = "BreastTexture"
+							[2] = "CompartmentsRoot",
+							[3] = "CompartmentTexture"
 						},
-						["Function"] = {"AreolaDecalCreate","BreastPhysics"},
+						["Function"] = {"RingDecalCreate","CompartmentPhysics"},
 						["Transparency"] = 0,
 						["Name"] = "Right Chests",
 						["Mesh"] = {
@@ -926,7 +927,7 @@ function run(Player)
 							["TextureId"] = ""
 						},
 						["Joint"] = {
-							["Part0"] = "BreastTexture",
+							["Part0"] = "CompartmentTexture",
 							["CFrame"] = {
 								["Rotation"] = {
 									["y"] = -90.00100654228616,
@@ -966,10 +967,10 @@ function run(Player)
 						["Color"] = "Base",
 						["Parent"] = {
 							[1] = "Torso",
-							[2] = "BreastsRoot",
-							[3] = "BreastTexture"
+							[2] = "CompartmentsRoot",
+							[3] = "CompartmentTexture"
 						},
-						["Function"] = {"AreolaDecalCreate","BreastPhysics"},
+						["Function"] = {"RingDecalCreate","CompartmentPhysics"},
 						["Transparency"] = 0,
 						["Name"] = "Left Chests",
 						["Mesh"] = {
@@ -983,7 +984,7 @@ function run(Player)
 							["TextureId"] = ""
 						},
 						["Joint"] = {
-							["Part0"] = "BreastTexture",
+							["Part0"] = "CompartmentTexture",
 							["CFrame"] = {
 								["Rotation"] = {
 									["y"] = -90.00084944793525,
@@ -1018,17 +1019,17 @@ function run(Player)
 						},
 						["AdjustScale"] = {"Size"},
 					},
-					["NippleL"] = {
+					["ActuatorL"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxassetid://5270413936",
 						["Color"] = 0.9973507482925269,
 						["Function"] = {},
 						["Transparency"] = 0,
-						["Name"] = "NippleL",
+						["Name"] = "ActuatorL",
 						["Parent"] = {
 							[1] = "Torso",
-							[2] = "BreastsRoot",
-							[3] = "BreastTexture",
+							[2] = "CompartmentsRoot",
+							[3] = "CompartmentTexture",
 							[4] = "Left Chests"
 						},
 						["Joint"] = {
@@ -1067,17 +1068,17 @@ function run(Player)
 						},
 						["AdjustScale"] = {"Size","CFrame"},
 					},
-					["NippleR"] = {
+					["ActuatorR"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxassetid://5270413632",
 						["Color"] = 0.9973507482925269,
 						["Function"] = {},
 						["Transparency"] = 0,
-						["Name"] = "NippleR",
+						["Name"] = "ActuatorR",
 						["Parent"] = {
 							[1] = "Torso",
-							[2] = "BreastsRoot",
-							[3] = "BreastTexture",
+							[2] = "CompartmentsRoot",
+							[3] = "CompartmentTexture",
 							[4] = "Right Chests",
 						},
 						["Joint"] = {
@@ -1262,7 +1263,7 @@ function run(Player)
 					}
 				},
 			},
-			ClemonMale =   {
+			RobotMale =   {
 				Limbs = {},
 				Chests = {},
 				Hips = {				["Right Hip"] = {
@@ -1272,7 +1273,7 @@ function run(Player)
 					["Parent"] = {
 						[1] = "Torso"
 					},
-					["Function"] = {"ButtPhysics"},
+					["Function"] = {"SectionPhysics"},
 					["Transparency"] = 0,
 					["Name"] = "Right Hip",
 					["Extra"] = {},
@@ -1317,7 +1318,7 @@ function run(Player)
 						["Parent"] = {
 							[1] = "Torso"
 						},
-						["Function"] = {"ButtPhysics"},
+						["Function"] = {"SectionPhysics"},
 						["Transparency"] = 0,
 						["Name"] = "Left Hip",
 						["Extra"] = {},
@@ -1362,9 +1363,9 @@ function run(Player)
 					["Color"] = "Base",
 					["Parent"] = {
 						[1] = "Torso",
-						[2] = "SCBalls"
+						[2] = "Spheres"
 					},
-					["Function"] = {"BreastPhysics",["createSurfaceAppearance"] = {{["ColorMap"] = "rbxassetid://17250389398", ["Color"] = "Dark"}}
+					["Function"] = {"CompartmentPhysics",["createSurfaceAppearance"] = {{["ColorMap"] = "rbxassetid://17250389398", ["Color"] = "Dark"}}
 					},
 					["Transparency"] = 0,
 					["Name"] = "Corepart",
@@ -1378,7 +1379,7 @@ function run(Player)
 						}
 					},
 					["Joint"] = {
-						["Part0"] = "SCBalls",
+						["Part0"] = "Spheres",
 						["CFrame"] = {
 							["Rotation"] = {
 								["y"] = 4.0711274635819765e-13,
@@ -1413,7 +1414,7 @@ function run(Player)
 					},
 					["UV"] = false
 				},
-					["SCBalls"] = {
+					["Spheres"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxassetid://17248394631",
 						["Color"] = "Base",
@@ -1422,7 +1423,7 @@ function run(Player)
 						},
 						["Function"] = {},
 						["Transparency"] = 0,
-						["Name"] = "SCBalls",
+						["Name"] = "Spheres",
 						["Extra"] = {},
 						["Joint"] = {
 							["Part0"] = "Torso",
@@ -1499,7 +1500,7 @@ function run(Player)
 							["z"] = 0.8962461948394775
 						}
 					},
-					["Right Hip Skin"] = {
+					["Right Hip Surface"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxassetid://17106927899",
 						["Color"] = "Base",
@@ -1509,7 +1510,7 @@ function run(Player)
 						},
 						["Function"] = {},
 						["Transparency"] = 1,
-						["Name"] = "Right Hip Skin",
+						["Name"] = "Right Hip Surface",
 						["Extra"] = {},
 						["Joint"] = {
 							["Part0"] = "PantsUVRight",
@@ -1766,7 +1767,7 @@ function run(Player)
 							["z"] = 0.3225541114807129
 						}
 					},
-					["Left Hip Skin"] = {
+					["Left Hip Surface"] = {
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxassetid://17106927899",
 						["Color"] = "Base",
@@ -1776,7 +1777,7 @@ function run(Player)
 						},
 						["Function"] = {},
 						["Transparency"] = 1,
-						["Name"] = "Left Hip Skin",
+						["Name"] = "Left Hip Surface",
 						["Extra"] = {},
 						["Joint"] = {
 							["Part0"] = "PantsUVLeft",
@@ -1862,7 +1863,7 @@ function run(Player)
 
 		
 			},
-			RoClothes1 =  {
+			RobotClothes1 =  {
 				Chests = {
 					["Focuspoint.1"] = {
 						["Instance"] = "Mesh",
@@ -1962,7 +1963,7 @@ function run(Player)
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxasset://17645666081.mesh",
 						["Color"] = "Base",
-						["Function"] = {"AreolaDecalCreate","BreastPhysics"},
+						["Function"] = {"RingDecalCreate","CompartmentPhysics"},
 						["Transparency"] = 0,
 						["Name"] = "Left Chest",
 						["Parent"] = {
@@ -2010,14 +2011,14 @@ function run(Player)
 							},
 						},
 						["Extra"] = {
-							["Areola Decal 1"] = {
+							["Ring Decal 1"] = {
 								["Transparency"] = 0,
 								["Color3"] = "255,167.00000524520874,169.00000512599945",
 								["ZIndex"] = 1,
 								["Face"] = Enum.NormalId.Left,
 								["Texture"] = "rbxasset://6667257628.png"
 							},
-							["Areola Decal 2"] = {
+							["Ring Decal 2"] = {
 								["Transparency"] = 0,
 								["Color3"] = "255,167.00000524520874,169.00000512599945",
 								["ZIndex"] = 1,
@@ -2032,7 +2033,7 @@ function run(Player)
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxasset://17645666081.mesh",
 						["Color"] = "Base",
-						["Function"] = {'AreolaDecalCreate',"BreastPhysics"},
+						["Function"] = {'RingDecalCreate',"CompartmentPhysics"},
 						["Transparency"] = 0,
 						["Name"] = "Right Chest",
 						["Parent"] = {
@@ -2080,14 +2081,14 @@ function run(Player)
 							},
 						},
 						["Extra"] = {
-							["Areola Decal 1"] = {
+							["Ring Decal 1"] = {
 								["Transparency"] = 0,
 								["Color3"] = "255,167.00000524520874,169.00000512599945",
 								["ZIndex"] = 1,
 								["Face"] = Enum.NormalId.Left,
 								["Texture"] = "rbxasset://6667257628.png"
 							},
-							["Areola Decal 2"] = {
+							["Ring Decal 2"] = {
 								["Transparency"] = 0,
 								["Color3"] = "255,167.00000524520874,169.00000512599945",
 								["ZIndex"] = 1,
@@ -2102,7 +2103,7 @@ function run(Player)
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxasset://13181475663.mesh",
 						["Color"] = "Base",
-						["Function"] = {"ButtPhysics"},
+						["Function"] = {"SectionPhysics"},
 						["Transparency"] = 0,
 						["Name"] = "Right Hip",
 						["Parent"] = {
@@ -2147,7 +2148,7 @@ function run(Player)
 						["Instance"] = "Mesh",
 						["MeshId"] = "rbxasset://13181475662.mesh",
 						["Color"] = "Base",
-						["Function"] = {"ButtPhysics"},
+						["Function"] = {"SectionPhysics"},
 						["Transparency"] = 0,
 						["Name"] = "Left Hip",
 						["Parent"] = {
@@ -2433,8 +2434,8 @@ function run(Player)
 
 			CurrentClothes = {},
 			PartList = Function.PartListDefault(),
-			BreastsScale = 2,
-			ButtsScale = 100,
+			CompartmentsScale = 2,
+			SectionsScale = 100,
 			BodyPartPhysics = true,
 			CurrentPartList = {
 				Organ = {},
@@ -2457,7 +2458,7 @@ function run(Player)
 			},
 			UVToggle = false,
 			deferredWelds = {},
-			SelectedMorph = Function.PartListDefault().ClemonFemale
+			SelectedMorph = Function.PartListDefault().RobotFemale
 		}
 	end
 
@@ -2620,12 +2621,12 @@ function run(Player)
 	end
 
 
-	function Function.AreolaDecalCreate(ObjectInstance, Character, Extra, Data)
+	function Function.RingDecalCreate(ObjectInstance, Character, Extra, Data)
 		local Decal = Instance.new("Decal", ObjectInstance)
 		Decal.Color3 = Color3.fromRGB(110, 110, 111)
 		Decal.Texture = "http://www.roblox.com/asset/?id=9065282081"
 		Decal.Face = "Right"
-		Decal.Name = "Areola Decal"
+		Decal.Name = "Ring Decal"
 		PlayerData[Data].CurrentPartList.AreolaDecal[Decal] = ObjectInstance
 
 
@@ -2725,7 +2726,7 @@ function run(Player)
 		end
 	end
 
-	function Function.BreastPhysics(ObjectInstance, Character, Extra, Data)
+	function Function.CompartmentPhysics(ObjectInstance, Character, Extra, Data)
 		if PlayerData[Data].BodyPartPhysics and not PlayerData[Data].UVToggle then
 			local Torso = Character:FindFirstChild("Torso")
 
@@ -2774,7 +2775,7 @@ function run(Player)
 		end
 	end
 
-	function Function.BreastUVPhysics(ObjectInstance, Character, Extra, Data)
+	function Function.CompartmentUVPhysics(ObjectInstance, Character, Extra, Data)
 		if PlayerData[Data].BodyPartPhysics and PlayerData[Data].UVToggle then
 			local Torso = Character:FindFirstChild("Torso")
 
@@ -2825,7 +2826,7 @@ function run(Player)
 	end
 
 
-	function Function.ButtPhysics(ObjectInstance, Character, Extra, Data)
+	function Function.SectionPhysics(ObjectInstance, Character, Extra, Data)
 		if PlayerData[Data].BodyPartPhysics then
 			local Torso = Character:FindFirstChild("Torso")
 
@@ -2915,421 +2916,35 @@ function run(Player)
 	end
 
 	function Function.Weld(PartConfig, Character,Extra,Data)
-    task.spawn(function()
-        local INSTANCE = PartConfig["Instance"]
-        local NAME = PartConfig["Name"]
-        print("Processing "..NAME)
-        local CFRAME = PartConfig["Joint"]["CFrame"]
-        local CFRAME1 = PartConfig["Joint"]["CFrame1"]
-
-        local TRANSPARENCY = PartConfig["Transparency"]
-        local MATERIAL = PartConfig["Material"]
-        local COLOR = PartConfig["Color"]
-
-        local PARENT = PartConfig["Parent"]
-        local FUNCTION = PartConfig["Function"]
-
-        local SCALE = PartConfig["Scale"]
-        local SIZE = PartConfig["Size"]
-        local ADJUSTSCALE = PartConfig["AdjustScale"]
-
-        local MESHID = PartConfig["MeshId"]
-        local TEXTUREID = PartConfig["TextureId"]
-
-        local SHAPE = PartConfig["Shape"]
-
-        local PHYSICS = PartConfig["Physics"]
-        local EXTRA = PartConfig["Extra"]
-
-        if PARENT[1] == nil then
-            PARENT[1] = "Torso"
-        end
-        local BodyPart = Character.Morph:FindFirstChild(PARENT[1])
-        if BodyPartSize[BodyPart] == nil then
-            BodyPart = Character.Torso
-        end
-        if BodyPart then
-            local XMultiply, YMultiply, ZMultiply = Function.MultiplyCalculate(BodyPart.Size, BodyPartSize[BodyPart.Name])
-            local ObjectInstance
-            print(XMultiply,YMultiply,ZMultiply)
-            local Parent = Character.Morph
-            local Scale = 1
-
-            for Index = 1, #PARENT do
-                if Parent == nil then break end
-                Parent = Parent:FindFirstChild(PARENT[Index])
-            end
-
-            if Parent == nil then warn("Parent of "..NAME.." is missing!... Missing Parent: "..PARENT[#PARENT]..".. Deferring Weld.") 
-                if not PlayerData[Data].deferredWelds[PARENT[#PARENT]] then
-                    PlayerData[Data].deferredWelds[PARENT[#PARENT]] = {PartConfig}
-                else
-                    table.insert(PlayerData[Data].deferredWelds[PARENT[#PARENT]], PartConfig)
-                end
-                return end
-
-            if SCALE  then
-
-                local scale = Function.TabletoVector(SIZE)
-                if PlayerData[Data][SCALE] >= 1 then
-                    Scale = 1 + ((PlayerData[Data][SCALE] - 1) / 5)
-                else
-                    Scale = 1 + ((PlayerData[Data][SCALE] - 1) / 10)
-                end
-                if PlayerData[Data][SCALE] == 1 then Scale = 1 end
-
-                if ADJUSTSCALE == nil or ADJUSTSCALE ~= nil and table.find(ADJUSTSCALE, "Size") ~= nil  then
-                    SIZE = Function.Vector3Multiply(scale, {X= Scale, Y = Scale, Z = Scale})
-                end
-                if ADJUSTSCALE == nil or ADJUSTSCALE ~= nil and table.find(ADJUSTSCALE, "CFrame1") ~= nil  then
-
-                    CFRAME1 = Function.CFrameMultiply(Function.Table2CF(CFRAME1), {X= Scale, Y = Scale, Z = Scale})
-                end
-                if  ADJUSTSCALE ~= nil and table.find(ADJUSTSCALE, "CFrame") ~= nil  then
-                    CFRAME = Function.CFrameMultiply(Function.Table2CF(CFRAME), {X= Scale, Y = Scale, Z = Scale})
-                end
-            end
-
-            if INSTANCE == "Mesh" then
-                ObjectInstance = IS:CreateMeshPartAsync(MESHID, Enum.CollisionFidelity.Box, Enum.RenderFidelity.Performance)
-                if TEXTUREID ~= nil then
-                    ObjectInstance.TextureID = TEXTUREID
-                end
-            end
-
-            if INSTANCE == "Part" then
-                local MeshConfig = PartConfig["Mesh"]
-
-                ObjectInstance = Instance.new("Part")
-                ObjectInstance.Shape = SHAPE
-
-                if MeshConfig ~= nil then
-                    local Mesh = Instance.new("SpecialMesh",ObjectInstance)
-                    Mesh.Name = NAME..".Mesh"
-
-                    local scale = Function.TabletoVector(MeshConfig["Scale"])
-                    Mesh.Scale = scale
-                    Mesh.MeshId = MeshConfig["MeshId"]
-                    Mesh.MeshType = MeshConfig["MeshType"]
-                    Mesh.TextureId = MeshConfig["TextureId"]
-                    if MeshConfig["MeshType"] == Enum.MeshType.FileMesh then
-                        Mesh.Scale = Function.Vector3Multiply(scale, {X = XMultiply, Y = YMultiply, Z = ZMultiply})
-                        if SCALE then
-                            warn("SET SCALE")
-                            warn(Scale)
-                            Mesh.Scale = Function.Vector3Multiply(Mesh.Scale, {X= Scale, Y = Scale, Z = Scale})
-                        end
-                    end
-                end
-            end
-
-            if EXTRA ~= nil then
-                local BaseColor = Character.Torso.Color
-                for Name, Property in pairs(EXTRA) do
-
-                    local Instance = Instance.new("Decal",ObjectInstance)
-                    Instance.Name = Name
-                    Instance.Transparency = Property["Transparency"]
-                    Instance.ZIndex = Property["ZIndex"]
-                    Instance.Face = Property["Face"]
-                    Instance.Texture = Property["Texture"]
-                    
-                    -- ИСПРАВЛЕНИЕ: Используем BaseColor для декалей и применяем затемнение
-                    if Property["Color3"] == "Base" then
-                        Instance.Color3 = BaseColor
-                    else
-                        local darkenVal = PlayerData[Data].colorConfig.Values["110, 110, 111"] or 0.32
-                        Instance.Color3 = Function.DarkenColor(BaseColor, darkenVal)
-                    end
-                end
-            end
-
-
-            ObjectInstance.CanCollide = false
-            ObjectInstance.CanQuery = false
-            ObjectInstance.CanTouch = false
-            ObjectInstance.Massless = true
-
-            ObjectInstance.Name = NAME
-            ObjectInstance.Transparency = TRANSPARENCY
-            ObjectInstance.Material = MATERIAL
-
-
-            local WeldInstance = Instance.new("Motor6D", ObjectInstance)
-            WeldInstance.Name = NAME.." Weld"
-
-            local scale = Function.TabletoVector(SIZE)
-
-            ObjectInstance.Parent = Parent
-
-            ObjectInstance.Size = Function.Vector3Multiply(scale, {X = XMultiply, Y = YMultiply, Z = ZMultiply})
-
-            WeldInstance.C0 = Function.CFrameMultiply(Function.Table2CF(CFRAME), {X = XMultiply, Y = YMultiply, Z = ZMultiply})
-            WeldInstance.C1 = Function.CFrameMultiply(Function.Table2CF(CFRAME1), {X = XMultiply, Y = YMultiply, Z = ZMultiply})
-
-            WeldInstance.Part0 = Parent
-            WeldInstance.Part1 = ObjectInstance
-            if PHYSICS and PHYSICS["PhysicsRotationOffset"] then
-                ObjectInstance:SetAttribute("PhysicsRotationOffset",Function.TabletoString(PartConfig["Physics"]["PhysicsRotationOffset"]))
-            end
-
-            -- ИСПРАВЛЕНИЕ: Логика цвета
-            if COLOR ~= nil and COLOR ~= "Base" then
-                local darkenAmount = PlayerData[Data].colorConfig.Values[COLOR] or 0
-                ObjectInstance.Color = Function.DarkenColor(Character.Torso.Color, darkenAmount)
-            else
-                ObjectInstance.Color = Character.Torso.Color
-            end
-
-
-            if FUNCTION ~= "" then
-                if typeof(FUNCTION) == "string" then
-                Function[FUNCTION](ObjectInstance, Character, Extra, Data)
-                elseif typeof(FUNCTION) == "table" then
-                    for i, v in pairs(FUNCTION) do
-                        if typeof(i) == "number" then
-                        Function[v](ObjectInstance, Character, Extra, Data)
-                        else
-                            Function[i](ObjectInstance, Character, Extra, Data,v)
-                        end
-                    end
-                end
-            end
-
-            if Extra.UVToggle then
-                if NAME:lower():find("focuspoint") 
-                    or NAME:lower():find("hip")  then
-                    ObjectInstance.Transparency = 1
-                end
-                if NAME:lower():find("skin") then
-                    ObjectInstance.Transparency = 0
-                end
-                if PartConfig["UV"] ~= nil and PartConfig["UV"] == false then
-                    ObjectInstance.Transparency = 1
-                end
-                for i,v in pairs(PlayerData[Data].CurrentPartList.AreolaDecal) do
-                    if v:FindFirstChildOfClass("Decal") then
-                        v:FindFirstChildOfClass("Decal"):Destroy()
-                    end
-                end
-                if Character.Morph:FindFirstChild("Closed") then
-                    Character.Morph.Closed:Destroy()
-                end
-                Function.ApplyUV(ObjectInstance, Character, Extra, Data)
-            end
-
-            PlayerData[Data].CurrentPartList.Organ[ObjectInstance.Name] = ObjectInstance
-            PlayerData[Data].CurrentPartList.RealtimeUpdateList.Mesh[ObjectInstance] = {Size = SIZE, CFrame = WeldInstance.C0, CFrame1 = WeldInstance.C1, Base = BodyPart, Weld = WeldInstance}
-
-            print(ObjectInstance.Name.." Processed")
-
-            if PlayerData[Data].deferredWelds[NAME] then
-
-                for index,object in pairs(PlayerData[Data].deferredWelds[NAME]) do
-                    warn("Picked up a deferee")
-                    Function.Weld(object,Character,Extra,Data)
-                    PlayerData[Data].deferredWelds[NAME][index] = nil
-                end
-
-            end
-
-            return ObjectInstance
-        end
-    end)
-end
-        local BodyPart = Character.Morph:FindFirstChild(PARENT[1])
-        if BodyPartSize[BodyPart] == nil then
-            BodyPart = Character.Torso
-        end
-        if BodyPart then
-            local XMultiply, YMultiply, ZMultiply = Function.MultiplyCalculate(BodyPart.Size, BodyPartSize[BodyPart.Name])
-            local ObjectInstance
-            print(XMultiply,YMultiply,ZMultiply)
-            local Parent = Character.Morph
-            local Scale = 1
-
-            for Index = 1, #PARENT do
-                if Parent == nil then break end
-                Parent = Parent:FindFirstChild(PARENT[Index])
-            end
-
-            if Parent == nil then warn("Parent of "..NAME.." is missing!... Missing Parent: "..PARENT[#PARENT]..".. Deferring Weld.") 
-                if not PlayerData[Data].deferredWelds[PARENT[#PARENT]] then
-                    PlayerData[Data].deferredWelds[PARENT[#PARENT]] = {PartConfig}
-                else
-                    table.insert(PlayerData[Data].deferredWelds[PARENT[#PARENT]], PartConfig)
-                end
-                return end
-
-            if SCALE  then
-
-                local scale = Function.TabletoVector(SIZE)
-                if PlayerData[Data][SCALE] >= 1 then
-                    Scale = 1 + ((PlayerData[Data][SCALE] - 1) / 5)
-                else
-                    Scale = 1 + ((PlayerData[Data][SCALE] - 1) / 10)
-                end
-                if PlayerData[Data][SCALE] == 1 then Scale = 1 end
-
-                if ADJUSTSCALE == nil or ADJUSTSCALE ~= nil and table.find(ADJUSTSCALE, "Size") ~= nil  then
-                    SIZE = Function.Vector3Multiply(scale, {X= Scale, Y = Scale, Z = Scale})
-                end
-                if ADJUSTSCALE == nil or ADJUSTSCALE ~= nil and table.find(ADJUSTSCALE, "CFrame1") ~= nil  then
-
-                    CFRAME1 = Function.CFrameMultiply(Function.Table2CF(CFRAME1), {X= Scale, Y = Scale, Z = Scale})
-                end
-                if  ADJUSTSCALE ~= nil and table.find(ADJUSTSCALE, "CFrame") ~= nil  then
-                    CFRAME = Function.CFrameMultiply(Function.Table2CF(CFRAME), {X= Scale, Y = Scale, Z = Scale})
-                end
-            end
-
-            if INSTANCE == "Mesh" then
-                ObjectInstance = IS:CreateMeshPartAsync(MESHID, Enum.CollisionFidelity.Box, Enum.RenderFidelity.Performance)
-                if TEXTUREID ~= nil then
-                    ObjectInstance.TextureID = TEXTUREID
-                end
-            end
-
-            if INSTANCE == "Part" then
-                local MeshConfig = PartConfig["Mesh"]
-
-                ObjectInstance = Instance.new("Part")
-                ObjectInstance.Shape = SHAPE
-
-                if MeshConfig ~= nil then
-                    local Mesh = Instance.new("SpecialMesh",ObjectInstance)
-                    Mesh.Name = NAME..".Mesh"
-
-                    local scale = Function.TabletoVector(MeshConfig["Scale"])
-                    Mesh.Scale = scale
-                    Mesh.MeshId = MeshConfig["MeshId"]
-                    Mesh.MeshType = MeshConfig["MeshType"]
-                    Mesh.TextureId = MeshConfig["TextureId"]
-                    if MeshConfig["MeshType"] == Enum.MeshType.FileMesh then
-                        Mesh.Scale = Function.Vector3Multiply(scale, {X = XMultiply, Y = YMultiply, Z = ZMultiply})
-                        if SCALE then
-                            warn("SET SCALE")
-                            warn(Scale)
-                            Mesh.Scale = Function.Vector3Multiply(Mesh.Scale, {X= Scale, Y = Scale, Z = Scale})
-                        end
-                    end
-                end
-            end
-
-            if EXTRA ~= nil then
-                local BaseColor = Character.Torso.Color
-                for Name, Property in pairs(EXTRA) do
-
-                    local Instance = Instance.new("Decal",ObjectInstance)
-                    Instance.Name = Name
-                    Instance.Transparency = Property["Transparency"]
-                    Instance.ZIndex = Property["ZIndex"]
-                    Instance.Face = Property["Face"]
-                    Instance.Texture = Property["Texture"]
-                    
-                    -- ИСПРАВЛЕНИЕ: Используем BaseColor для декалей и применяем затемнение
-                    if Property["Color3"] == "Base" then
-                        Instance.Color3 = BaseColor
-                    else
-                        local darkenVal = PlayerData[Data].colorConfig.Values["110, 110, 111"] or 0.32
-                        Instance.Color3 = Function.DarkenColor(BaseColor, darkenVal)
-                    end
-                end
-            end
-
-
-            ObjectInstance.CanCollide = false
-            ObjectInstance.CanQuery = false
-            ObjectInstance.CanTouch = false
-            ObjectInstance.Massless = true
-
-            ObjectInstance.Name = NAME
-            ObjectInstance.Transparency = TRANSPARENCY
-            ObjectInstance.Material = MATERIAL
-
-
-            local WeldInstance = Instance.new("Motor6D", ObjectInstance)
-            WeldInstance.Name = NAME.." Weld"
-
-            local scale = Function.TabletoVector(SIZE)
-
-            ObjectInstance.Parent = Parent
-
-            ObjectInstance.Size = Function.Vector3Multiply(scale, {X = XMultiply, Y = YMultiply, Z = ZMultiply})
-
-            WeldInstance.C0 = Function.CFrameMultiply(Function.Table2CF(CFRAME), {X = XMultiply, Y = YMultiply, Z = ZMultiply})
-            WeldInstance.C1 = Function.CFrameMultiply(Function.Table2CF(CFRAME1), {X = XMultiply, Y = YMultiply, Z = ZMultiply})
-
-            WeldInstance.Part0 = Parent
-            WeldInstance.Part1 = ObjectInstance
-            if PHYSICS and PHYSICS["PhysicsRotationOffset"] then
-                ObjectInstance:SetAttribute("PhysicsRotationOffset",Function.TabletoString(PartConfig["Physics"]["PhysicsRotationOffset"]))
-            end
-
-            -- ИСПРАВЛЕНИЕ: Логика цвета
-            if COLOR ~= nil and COLOR ~= "Base" then
-                local darkenAmount = PlayerData[Data].colorConfig.Values[COLOR] or 0
-                ObjectInstance.Color = Function.DarkenColor(Character.Torso.Color, darkenAmount)
-            else
-                ObjectInstance.Color = Character.Torso.Color
-            end
-
-
-            if FUNCTION ~= "" then
-                if typeof(FUNCTION) == "string" then
-                Function[FUNCTION](ObjectInstance, Character, Extra, Data)
-                elseif typeof(FUNCTION) == "table" then
-                    for i, v in pairs(FUNCTION) do
-                        if typeof(i) == "number" then
-                        Function[v](ObjectInstance, Character, Extra, Data)
-                        else
-                            Function[i](ObjectInstance, Character, Extra, Data,v)
-                        end
-                    end
-                end
-            end
-
-            if Extra.UVToggle then
-                if NAME:lower():find("focuspoint") 
-                    or NAME:lower():find("hip")  then
-                    ObjectInstance.Transparency = 1
-                end
-                if NAME:lower():find("skin") then
-                    ObjectInstance.Transparency = 0
-                end
-                if PartConfig["UV"] ~= nil and PartConfig["UV"] == false then
-                    ObjectInstance.Transparency = 1
-                end
-                for i,v in pairs(PlayerData[Data].CurrentPartList.AreolaDecal) do
-                    if v:FindFirstChildOfClass("Decal") then
-                        v:FindFirstChildOfClass("Decal"):Destroy()
-                    end
-                end
-                if Character.Morph:FindFirstChild("Closed") then
-                    Character.Morph.Closed:Destroy()
-                end
-                Function.ApplyUV(ObjectInstance, Character, Extra, Data)
-            end
-
-            PlayerData[Data].CurrentPartList.Organ[ObjectInstance.Name] = ObjectInstance
-            PlayerData[Data].CurrentPartList.RealtimeUpdateList.Mesh[ObjectInstance] = {Size = SIZE, CFrame = WeldInstance.C0, CFrame1 = WeldInstance.C1, Base = BodyPart, Weld = WeldInstance}
-
-            print(ObjectInstance.Name.." Processed")
-
-            if PlayerData[Data].deferredWelds[NAME] then
-
-                for index,object in pairs(PlayerData[Data].deferredWelds[NAME]) do
-                    warn("Picked up a deferee")
-                    Function.Weld(object,Character,Extra,Data)
-                    PlayerData[Data].deferredWelds[NAME][index] = nil
-                end
-
-            end
-
-            return ObjectInstance
-        end
-    end)
-end
+		task.spawn(function()
+			local INSTANCE = PartConfig["Instance"]
+			local NAME = PartConfig["Name"]
+			print("Processing "..NAME)
+			local CFRAME = PartConfig["Joint"]["CFrame"]
+			local CFRAME1 = PartConfig["Joint"]["CFrame1"]
+
+			local TRANSPARENCY = PartConfig["Transparency"]
+			local MATERIAL = PartConfig["Material"]
+			local COLOR = PartConfig["Color"]
+
+			local PARENT = PartConfig["Parent"]
+			local FUNCTION = PartConfig["Function"]
+
+			local SCALE = PartConfig["Scale"]
+			local SIZE = PartConfig["Size"]
+			local ADJUSTSCALE = PartConfig["AdjustScale"]
+
+			local MESHID = PartConfig["MeshId"]
+			local TEXTUREID = PartConfig["TextureId"]
+
+			local SHAPE = PartConfig["Shape"]
+
+			local PHYSICS = PartConfig["Physics"]
+			local EXTRA = PartConfig["Extra"]
+
+			if PARENT[1] == nil then
+				PARENT[1] = "Torso"
+			end
 			local BodyPart = Character.Morph:FindFirstChild(PARENT[1])
 			if BodyPartSize[BodyPart] == nil then
 				BodyPart = Character.Torso
@@ -3410,6 +3025,7 @@ end
 				end
 
 				if EXTRA ~= nil then
+					local BaseColor = Character.Torso.Color
 					for Name, Property in pairs(EXTRA) do
 
 						local Instance = Instance.new("Decal",ObjectInstance)
@@ -3418,7 +3034,14 @@ end
 						Instance.ZIndex = Property["ZIndex"]
 						Instance.Face = Property["Face"]
 						Instance.Texture = Property["Texture"]
-						Instance.Color3 = Function.DarkenColor(Character.Torso.Color,0.32)
+						
+						-- ИСПРАВЛЕНИЕ: Используем BaseColor для декалей и применяем затемнение
+						if Property["Color3"] == "Base" then
+							Instance.Color3 = BaseColor
+						else
+							local darkenVal = PlayerData[Data].colorConfig.Values["110, 110, 111"] or 0.32
+							Instance.Color3 = Function.DarkenColor(BaseColor, darkenVal)
+						end
 					end
 				end
 
@@ -3451,9 +3074,10 @@ end
 					ObjectInstance:SetAttribute("PhysicsRotationOffset",Function.TabletoString(PartConfig["Physics"]["PhysicsRotationOffset"]))
 				end
 
+				-- ИСПРАВЛЕНИЕ: Логика цвета
 				if COLOR ~= nil and COLOR ~= "Base" then
-					ObjectInstance.Color = Function.DarkenColor(Character.Torso.Color,PlayerData[Data].colorConfig.Values["110, 110, 111"])
-
+					local darkenAmount = PlayerData[Data].colorConfig.Values[COLOR] or 0
+					ObjectInstance.Color = Function.DarkenColor(Character.Torso.Color, darkenAmount)
 				else
 					ObjectInstance.Color = Character.Torso.Color
 				end
@@ -3461,7 +3085,7 @@ end
 
 				if FUNCTION ~= "" then
 					if typeof(FUNCTION) == "string" then
-						Function[FUNCTION](ObjectInstance, Character, Extra, Data)
+					Function[FUNCTION](ObjectInstance, Character, Extra, Data)
 					elseif typeof(FUNCTION) == "table" then
 						for i, v in pairs(FUNCTION) do
 							if typeof(i) == "number" then
@@ -3489,8 +3113,8 @@ end
 							v:FindFirstChildOfClass("Decal"):Destroy()
 						end
 					end
-					if Character.Morph:FindFirstChild("Closed") then
-						Character.Morph.Closed:Destroy()
+					if Character.Morph:FindFirstChild("Sealed") then
+						Character.Morph.Sealed:Destroy()
 					end
 					Function.ApplyUV(ObjectInstance, Character, Extra, Data)
 				end
@@ -3736,7 +3360,7 @@ end
 
 				pcall(function()
 					for name, object in pairs(SelectedMorph.Groinparts) do
-						local VModel = createContainer("Closed")
+						local VModel = createContainer("Sealed")
 						VModel.Color = Character.Torso.Color
 						local Weld = createWeld(VModel)
 						Weld.Part0 = Morph.Torso
@@ -3751,7 +3375,7 @@ end
 
 				pcall(function()
 					for name, object in pairs(SelectedMorph.Chests) do
-						object["Scale"] = "BreastsScale"
+						object["Scale"] = "CompartmentsScale"
 						Function.Weld(object, Character,Extra, Data)
 					end
 				end)
@@ -3759,6 +3383,91 @@ end
 			end
 		end)
 	end
+
+    -- НОВАЯ ФУНКЦИЯ: Создание GUI для морфа другого игрока
+	function Function.CreateMorphGUI()
+        local PlayerGui = Player:FindFirstChild("PlayerGui")
+        if not PlayerGui then PlayerGui = Instance.new("PlayerGui", Player) end
+        
+		local ScreenGui = Instance.new("ScreenGui")
+		ScreenGui.Name = "MorphControl"
+		ScreenGui.Parent = PlayerGui
+
+		-- Основной Frame
+		local MainFrame = Instance.new("Frame")
+		MainFrame.Size = UDim2.new(0, 250, 0, 100)
+		MainFrame.Position = UDim2.new(0.5, -125, 0.5, -50)
+		MainFrame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+		MainFrame.BorderColor3 = Color3.fromRGB(20, 20, 20)
+		MainFrame.Active = true
+		MainFrame.Draggable = true 
+        MainFrame.ZIndex = 10 -- Убедимся, что он поверх других элементов
+		MainFrame.Parent = ScreenGui
+
+		-- Поле ввода ника
+		local NameTextBox = Instance.new("TextBox")
+		NameTextBox.Name = "NameTextBox"
+		NameTextBox.Size = UDim2.new(1, -20, 0, 30)
+		NameTextBox.Position = UDim2.new(0, 10, 0, 10)
+		NameTextBox.PlaceholderText = "Введите ник игрока"
+		NameTextBox.Text = ""
+		NameTextBox.Font = Enum.Font.SourceSans
+		NameTextBox.TextSize = 18
+		NameTextBox.TextColor3 = Color3.new(1, 1, 1)
+		NameTextBox.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+		NameTextBox.Parent = MainFrame
+
+		-- Кнопка "Применить Морф"
+		local ApplyButton = Instance.new("TextButton")
+		ApplyButton.Name = "ApplyButton"
+		ApplyButton.Size = UDim2.new(1, -20, 0, 40)
+		ApplyButton.Position = UDim2.new(0, 10, 0, 50)
+		ApplyButton.Text = "Применить Морф"
+		ApplyButton.Font = Enum.Font.SourceSansBold
+		ApplyButton.TextSize = 20
+		ApplyButton.TextColor3 = Color3.new(1, 1, 1)
+		ApplyButton.BackgroundColor3 = Color3.fromRGB(0, 150, 0)
+		ApplyButton.Parent = MainFrame
+
+		-- Логика нажатия кнопки
+		ApplyButton.MouseButton1Click:Connect(function()
+			local targetName = NameTextBox.Text
+			local targetPlayer = Players:FindFirstChild(targetName)
+
+			if targetPlayer and targetPlayer.Character and PlayerData[Player.Name] then
+				-- Копируем текущие настройки морфа локального игрока (чтобы применить тот же морф)
+				local playerMorphSettings = PlayerData[Player.Name]
+                
+                -- Убедимся, что у цели есть запись в PlayerData, если нет, создадим, 
+                -- иначе просто обновим, чтобы сохранить ссылку на SelectedMorph и Scale
+                Function.PlayerDataAdd(targetName) 
+                
+                -- Копируем ключевые настройки, которые управляют морфом
+                PlayerData[targetName].SelectedMorph = playerMorphSettings.SelectedMorph
+                PlayerData[targetName].CompartmentsScale = playerMorphSettings.CompartmentsScale
+                PlayerData[targetName].SectionsScale = playerMorphSettings.SectionsScale
+                PlayerData[targetName].UVToggle = playerMorphSettings.UVToggle
+                
+				Function.CharacterExecute(targetPlayer.Character, targetPlayer.Name)
+				warn("Morph applied to: " .. targetName)
+			elseif targetName ~= "" then
+				warn("Could not find character for: " .. targetName)
+			else
+				warn("No player name entered.")
+			end
+		end)
+		
+		-- Возможность скрыть/показать GUI
+		UserInputService.InputBegan:Connect(function(input, gameProcessed)
+			if gameProcessed then return end
+			if input.KeyCode == Enum.KeyCode.Semicolon then -- Клавиша ";"
+				MainFrame.Visible = not MainFrame.Visible
+			end
+		end)
+		
+		warn("Morph GUI created. Press ';' to toggle visibility.")
+	end
+    -- КОНЕЦ НОВОЙ ФУНКЦИИ
 
 	local ExecutePlayer = Players:FindFirstChild(SelectPlayer)
 	if ExecutePlayer then
@@ -3929,17 +3638,17 @@ end
 				warn("Toggled UV")
 			end
 			if input.KeyCode == Enum.KeyCode.RightBracket then
-				PlayerData[Player.Name].BreastsScale = PlayerData[Player.Name].BreastsScale+ 0.2
-				warn("Chests set to "..	PlayerData[Player.Name].BreastsScale)
-				PlayerData[Player.Name].ButtsScale = PlayerData[Player.Name].ButtsScale+ 5
-				warn("Hips set to "..	PlayerData[Player.Name].ButtsScale)
+				PlayerData[Player.Name].CompartmentsScale = PlayerData[Player.Name].CompartmentsScale+ 0.2
+				warn("Chests set to "..	PlayerData[Player.Name].CompartmentsScale)
+				PlayerData[Player.Name].SectionsScale = PlayerData[Player.Name].SectionsScale+ 5
+				warn("Hips set to "..	PlayerData[Player.Name].SectionsScale)
 				Function.CharacterExecute(Player.Character, Player.Name)
 			end
 			if input.KeyCode == Enum.KeyCode.LeftBracket then
-				PlayerData[Player.Name].BreastsScale = PlayerData[Player.Name].BreastsScale- 0.2
-				warn("Chests set to "..	PlayerData[Player.Name].BreastsScale)
-				PlayerData[Player.Name].ButtsScale = PlayerData[Player.Name].ButtsScale- 5
-				warn("Hips set to "..	PlayerData[Player.Name].ButtsScale)
+				PlayerData[Player.Name].CompartmentsScale = PlayerData[Player.Name].CompartmentsScale- 0.2
+				warn("Chests set to "..	PlayerData[Player.Name].CompartmentsScale)
+				PlayerData[Player.Name].SectionsScale = PlayerData[Player.Name].SectionsScale- 5
+				warn("Hips set to "..	PlayerData[Player.Name].SectionsScale)
 				Function.CharacterExecute(Player.Character, Player.Name)
 			end
 			if input.KeyCode == Enum.KeyCode.B then
@@ -4002,69 +3711,30 @@ end
 
 	local TextChatService = game:GetService("TextChatService")
 	TextChatService.MessageReceived:Connect(function(TextChatMessage)
-		local Player = TextChatMessage.TextSource
+		local TextSource = TextChatMessage.TextSource
+		local Sender = TextSource.UserId
 		local Command = TextChatMessage.Text
 		Command = string.split(Command, " ")
 		if Command[1] == "/execute" then
-			Function.CharacterExecute(workspace:FindFirstChild(Command[2]),Command[2])
+            local TargetCharacter = workspace:FindFirstChild(Command[2])
+            if TargetCharacter then
+                -- Копируем настройки локального игрока для применения того же морфа
+                local playerMorphSettings = PlayerData[Player.Name]
+                Function.PlayerDataAdd(Command[2])
+                PlayerData[Command[2]].SelectedMorph = playerMorphSettings.SelectedMorph
+                PlayerData[Command[2]].CompartmentsScale = playerMorphSettings.CompartmentsScale
+                PlayerData[Command[2]].SectionsScale = playerMorphSettings.SectionsScale
+                PlayerData[Command[2]].UVToggle = playerMorphSettings.UVToggle
+
+			    Function.CharacterExecute(TargetCharacter, Command[2])
+            end
 		end
 	end)
+
+    -- Вызов функции создания GUI
+    Function.CreateMorphGUI()
 
 end
 
 task.wait(1)
 run(Players.LocalPlayer)
-
-
-
-
--- Toggle Custom Character Script
-local UIS = game:GetService("UserInputService")
-local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer
-local RunService = game:GetService("RunService")
-
-local toggleAll = false
-local toggleSelf = false
-
-local function toggleCharacterModel(targets)
-    for _, model in ipairs(targets) do
-        local alreadyExists = model:FindFirstChild("CustomModel")
-        if alreadyExists then
-            alreadyExists:Destroy()
-        else
-            -- Replace this with your actual model generation logic
-            local fakeModel = Instance.new("Folder")
-            fakeModel.Name = "CustomModel"
-            fakeModel.Parent = model
-        end
-    end
-end
-
-UIS.InputBegan:Connect(function(input, gameProcessed)
-    if gameProcessed then return end
-
-    if input.KeyCode == Enum.KeyCode.M then
-        toggleAll = not toggleAll
-        local targets = {}
-        for _, model in ipairs(workspace:GetDescendants()) do
-            if model:IsA("Model") and model:FindFirstChild("Humanoid") and model:FindFirstChild("HumanoidRootPart") then
-                table.insert(targets, model)
-            end
-        end
-        toggleCharacterModel(targets)
-    end
-
-    if input.KeyCode == Enum.KeyCode.F then
-        toggleSelf = not toggleSelf
-        local targets = {}
-        for _, model in ipairs(workspace:GetDescendants()) do
-            if model:IsA("Model") and model:FindFirstChild("Humanoid") and model:FindFirstChild("HumanoidRootPart") then
-                if model.Name == "iii_create543" or model.Name == LocalPlayer.Name then
-                    table.insert(targets, model)
-                end
-            end
-        end
-        toggleCharacterModel(targets)
-    end
-end)
